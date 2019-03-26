@@ -1,0 +1,14 @@
+{
+  "name": "",
+  "version": "",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  }
+}
