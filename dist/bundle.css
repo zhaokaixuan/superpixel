@@ -168,12 +168,6 @@
   }
   *{margin:0;padding:0}
   html,body{width:100%;height:100%;overflow: hidden;}
-  #AllMight > div:nth-child(1) > div.edit-image-top-menu{display: none}
-  #AllMight > div:nth-child(2){display: none;}
-  #AllMight > input{display: none}
-  #AllMight > button{display: none}
-  #AllMight > p{display: none}
-  #AllMight{display: flex;justify-content: center;}
   #SuperpixelContainer{margin-top:40px;margin-left:100px;margin-right:100px;}
   #SuperpixelRightMenu{border:1px solid #dbdbdb;height: 100px;background: black;display: flex;justify-content: center;align-items: center;}
   #SuperpixelRightMenu div.superpixel_item{border-radius:10px;width: 70px;height:70px;background: white;display: flex;justify-content: center;align-items: center;flex-direction: column;position: relative;margin:5px;box-shadow:2px 2px 3px #aaaaaa;}

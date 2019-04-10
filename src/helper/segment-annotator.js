@@ -364,9 +364,24 @@ Annotator.prototype._initializeEvents = function () {
     mousestate.down = true;
     mousestate.button = event.button;
   });
+  canvas.addEventListener('mousewheel',function (event) {
+    console.log('mousewheel')
+  })
+
+
+
+
+
+
   window.addEventListener('mouseup', function () {
     mousestate.down = false;
   });
+
+
+
+
+
+  
 
   //polygon on/off with ctrl-key
   // window.onkeyup = function (e) {
